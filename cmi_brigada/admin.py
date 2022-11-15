@@ -1,5 +1,5 @@
 from django.contrib import admin
-from cmi_brigada.models import Cliente, ContratoMarco, ContratoEspecifico, Factura, DetallesFactura, Surtido, ProductoServicio
+from cmi_brigada.models import Cliente, ContratoMarco, ContratoEspecifico, Factura, DetallesFactura, Surtido, Producto
 
 # Register your models here.
 class ClienteAdmin(admin.ModelAdmin):
@@ -15,4 +15,4 @@ admin.site.register(ContratoEspecifico)
 admin.site.register(Factura)
 admin.site.register(DetallesFactura)
 admin.site.register(Surtido)
-admin.site.register(ProductoServicio)
+admin.site.register(Producto)
